@@ -17,6 +17,17 @@ Here is the youtube like from which you can see the live working of our website!
 
 https://youtu.be/IuxTNHe6bDM?feature=shared
 
+## Project Overview
+AEROVISION is a space situational awareness and orbital analysis project focused on tracking space debris and satellites in Earth’s orbit. With the rapid increase in space objects, orbital debris has become a major threat to active satellites and future missions.
+
+The project provides zone-wise detection of space debris by categorizing orbital regions (such as Low Earth Orbit, Medium Earth Orbit, and Geostationary Orbit). For each tracked object, AEROVISION estimates its orbital lifespan, analyzes its movement patterns, and calculates the probability of collision with active satellites or other debris.
+
+To improve risk assessment, the system assigns a danger score to each debris object based on factors such as orbital altitude, velocity, object size, lifespan, and proximity to operational satellites. This scoring helps in identifying high-risk debris zones and prioritizing monitoring efforts.
+
+AEROVISION presents this information through structured data analysis and visual representations, enabling better understanding of orbital risks and supporting safer and more sustainable use of Earth’s orbital environment. The project is intended for educational, research, and prototype-level applications in space traffic and debris monitoring.
+
+## TechStack
+
 This project uses the following tech stack:
 - Vite
 - Typescript
@@ -272,4 +283,5 @@ When using convex, make sure:
 - This includes importing generated files like `@/convex/_generated/server`, `@/convex/_generated/api`
 - Remember to import functions like useQuery, useMutation, useAction, etc. from `convex/react`
 - NEVER have return type validators.
+
 

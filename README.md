@@ -1,4 +1,21 @@
-## Overview
+## Website Overview
+Main DashBoard
+<img width="1870" height="840" alt="Screenshot 2025-12-19 035928" src="https://github.com/user-attachments/assets/fa8eb373-aabb-40ba-9780-dfe11a85e208" />
+
+ Zone tracking overview it tack the satellite and other fragment and catagories in different zone form for easy analysis and other works.
+<img width="1869" height="847" alt="Screenshot 2025-12-19 035752" src="https://github.com/user-attachments/assets/24dd3b32-de71-40d5-b20d-e3dec41f6152" />
+<img width="1865" height="835" alt="Screenshot 2025-12-19 035809" src="https://github.com/user-attachments/assets/5a961793-af09-4e2b-9adc-dbc8289dbeae" />
+
+This shows the life span of the satellite and other fragment and there probablity to fall in other.
+<img width="1873" height="838" alt="Screenshot 2025-12-19 035831" src="https://github.com/user-attachments/assets/3a344b01-35ac-4d60-818f-9ee34cb4a261" />
+
+This is the live tracking method which track the real satellite and give it nearly accurate result.
+<img width="1863" height="837" alt="Screenshot 2025-12-19 035901" src="https://github.com/user-attachments/assets/543c7f23-d867-4b96-8b9a-0f63b922f71e" />
+
+## Live demo
+Here is the youtube like from which you can see the live working of our website!
+
+https://youtu.be/IuxTNHe6bDM?feature=shared
 
 This project uses the following tech stack:
 - Vite
@@ -255,3 +272,4 @@ When using convex, make sure:
 - This includes importing generated files like `@/convex/_generated/server`, `@/convex/_generated/api`
 - Remember to import functions like useQuery, useMutation, useAction, etc. from `convex/react`
 - NEVER have return type validators.
+

@@ -18,13 +18,13 @@ Here is the youtube like from which you can see the live working of our website!
 https://youtu.be/IuxTNHe6bDM?feature=shared
 
 ## Project Overview
-AEROVISION is a space situational awareness and orbital analysis project focused on tracking space debris and satellites in Earth’s orbit. With the rapid increase in space objects, orbital debris has become a major threat to active satellites and future missions.
+The rapid growth of satellites and space missions has led to a serious increase in orbital debris around Earth. These inactive satellites and debris fragments travel at extremely high speeds, making even small objects capable of causing major damage through collisions. This growing problem threatens active satellites, communication systems, navigation services, and future space missions. Managing and understanding orbital debris has therefore become essential for safe and sustainable use of space.
 
-The project provides zone-wise detection of space debris by categorizing orbital regions (such as Low Earth Orbit, Medium Earth Orbit, and Geostationary Orbit). For each tracked object, AEROVISION estimates its orbital lifespan, analyzes its movement patterns, and calculates the probability of collision with active satellites or other debris.
+Orbivision is a web-based orbital debris monitoring and risk-analysis platform designed to make space-situational awareness easier and more accessible. The system provides an interactive dashboard that visually tracks satellites and debris across different orbital regions such as Low Earth Orbit. It classifies objects based on factors like orbit type, lifespan, mass, and re-entry risk, helping users quickly identify high-risk objects and zones.
 
-To improve risk assessment, the system assigns a danger score to each debris object based on factors such as orbital altitude, velocity, object size, lifespan, and proximity to operational satellites. This scoring helps in identifying high-risk debris zones and prioritizing monitoring efforts.
+The platform also highlights potential collision alerts and shows how space-weather conditions, such as solar activity, can affect orbital decay and re-entry probability. By presenting complex orbital information through clear visual indicators, zone-based analysis, and 3D representations, Orbivision reduces the need for expert interpretation.
 
-AEROVISION presents this information through structured data analysis and visual representations, enabling better understanding of orbital risks and supporting safer and more sustainable use of Earth’s orbital environment. The project is intended for educational, research, and prototype-level applications in space traffic and debris monitoring.
+This project aims to support education, research, and early-stage planning for space agencies and satellite developers, while raising awareness about orbital debris and promoting safer, more sustainable space operations.
 
 ## TechStack
 
@@ -283,5 +283,6 @@ When using convex, make sure:
 - This includes importing generated files like `@/convex/_generated/server`, `@/convex/_generated/api`
 - Remember to import functions like useQuery, useMutation, useAction, etc. from `convex/react`
 - NEVER have return type validators.
+
 
 
